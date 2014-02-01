@@ -9,6 +9,10 @@
  * sequences of d consecutive elements in the array. For each sequence we
  * compute the difference between the maximum and the minimum value of the
  * elements in that sequence and name it the deviation.
+ *
+ *	•	write a function that computes the maximum value among the deviations of all the sequences considered above
+ *	•	print the value the standard output (stdout)
+ *
  */
 
 #include <cstdlib>
