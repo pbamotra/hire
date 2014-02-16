@@ -79,7 +79,7 @@ void printArray(TYPE array[], int size) {
         cout << array[i] << " - ";
     }
 }
-
+/**
 int main(int argc, char** argv) {
     int length = 100000;
     int* array = randomGen<int>((int) pow(2, 20), length);
@@ -87,3 +87,4 @@ int main(int argc, char** argv) {
     return 0;
 }
 
+**/
