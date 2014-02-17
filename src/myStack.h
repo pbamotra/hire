@@ -1,11 +1,22 @@
 /*
- * stack.cpp
+ * myStack.h
  *
  *  Created on: Feb 16, 2014
  *      Author: pbamotra
  */
 #include <iostream>
 using namespace std;
+
+#ifndef MYSTACK_H_
+#define MYSTACK_H_
+/*
+ * stack.cpp
+ *
+ *  Created on: Feb 16, 2014
+ *      Author: pbamotra
+ *
+ *
+ */
 
 template<class T>
 class Node {
@@ -54,17 +65,5 @@ public:
 		}while(temp!=NULL);
 	}
 };
-//
-//int main(int argc, char** argv){
-//	Stack<int>* stack = new Stack<int>();
-//	stack->push(12);
-//	stack->push(24);
-//	stack->push(36);
-//	stack->display();
-//	stack->pop();
-//	stack->display();
-//	return 0;
-//}
 
-
-
+#endif /* MYSTACK_H_ */
